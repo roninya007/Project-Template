@@ -459,3 +459,4 @@ C:\Dev\Project-Template\src\api.tests\obj\Debug\net9.0\refint\Api.Tests.dll
 C:\Dev\Project-Template\src\api.tests\obj\Debug\net9.0\Api.Tests.pdb
 C:\Dev\Project-Template\src\api.tests\obj\Debug\net9.0\Api.Tests.genruntimeconfig.cache
 C:\Dev\Project-Template\src\api.tests\obj\Debug\net9.0\ref\Api.Tests.dll
+C:\Dev\Project-Template\src\api.tests\obj\Debug\net9.0\Api.Tests.sourcelink.json

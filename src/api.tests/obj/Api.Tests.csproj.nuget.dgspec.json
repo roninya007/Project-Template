@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj": {}
+    "C:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj": {
+    "C:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj",
+        "projectUniqueName": "C:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj",
         "projectName": "Api.Tests",
-        "projectPath": "c:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj",
+        "projectPath": "C:\\Dev\\Project-Template\\src\\api.tests\\Api.Tests.csproj",
         "packagesPath": "C:\\Users\\ronil\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Project-Template\\src\\api.tests\\obj\\",
+        "outputPath": "C:\\Dev\\Project-Template\\src\\api.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ronil\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "c:\\Dev\\Project-Template\\src\\api\\Api.csproj": {
-                "projectPath": "c:\\Dev\\Project-Template\\src\\api\\Api.csproj"
+              "C:\\Dev\\Project-Template\\src\\api\\Api.csproj": {
+                "projectPath": "C:\\Dev\\Project-Template\\src\\api\\Api.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "c:\\Dev\\Project-Template\\src\\api\\Api.csproj": {
+    "C:\\Dev\\Project-Template\\src\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Dev\\Project-Template\\src\\api\\Api.csproj",
+        "projectUniqueName": "C:\\Dev\\Project-Template\\src\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "c:\\Dev\\Project-Template\\src\\api\\Api.csproj",
+        "projectPath": "C:\\Dev\\Project-Template\\src\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\ronil\\.nuget\\packages\\",
-        "outputPath": "c:\\Dev\\Project-Template\\src\\api\\obj\\",
+        "outputPath": "C:\\Dev\\Project-Template\\src\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ronil\\AppData\\Roaming\\NuGet\\NuGet.Config"
