@@ -14,7 +14,10 @@
       "Bash(Get-ChildItem -Path \"c:\\\\Dev\\\\Project-Template\\\\src\\\\api\" -Recurse -File)",
       "Bash(Select-Object FullName)",
       "Bash(Sort-Object FullName)",
-      "Bash(dotnet test *)"
+      "Bash(dotnet test *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
