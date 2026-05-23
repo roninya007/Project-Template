@@ -91,6 +91,7 @@ builder.Services.AddAuthorization();
 // Application services (DI registration)
 // ---------------------------------------------------------------------------
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // ---------------------------------------------------------------------------
 // Build the application

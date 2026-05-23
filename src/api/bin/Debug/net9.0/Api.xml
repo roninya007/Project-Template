@@ -31,6 +31,28 @@
             <response code="400">Request body is invalid.</response>
             <response code="401">Invalid email or password.</response>
         </member>
+        <member name="T:Api.Controllers.ProductsController">
+            <summary>
+            Exposes product catalogue endpoints.
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.ProductsController.#ctor(Api.Services.IProductService)">
+            <summary>
+            Initialises a new <see cref="T:Api.Controllers.ProductsController"/>.
+            </summary>
+            <param name="productService">Service providing product data.</param>
+        </member>
+        <member name="M:Api.Controllers.ProductsController.GetAll">
+            <summary>
+            Returns all products in the catalogue.
+            </summary>
+            <returns>
+            <list type="bullet">
+              <item><description>200 OK – body contains an array of <see cref="T:Api.Models.Product"/>.</description></item>
+            </list>
+            </returns>
+            <response code="200">Product list returned successfully.</response>
+        </member>
         <member name="T:Api.Models.LoginRequest">
             <summary>
             Request body for the login endpoint.
@@ -63,6 +85,20 @@
             <summary>
             UTC timestamp at which the token expires.
             </summary>
+        </member>
+        <member name="T:Api.Models.Product">
+            <summary>
+            Represents a product in the catalogue.
+            </summary>
+        </member>
+        <member name="P:Api.Models.Product.Id">
+            <summary>Unique identifier.</summary>
+        </member>
+        <member name="P:Api.Models.Product.Name">
+            <summary>Display name of the product.</summary>
+        </member>
+        <member name="P:Api.Models.Product.Price">
+            <summary>Price in the default currency.</summary>
         </member>
         <member name="T:Api.Services.AuthService">
             <summary>
@@ -100,6 +136,25 @@
             A <see cref="T:Api.Models.LoginResponse"/> with a token and expiry when credentials are valid;
             <c>null</c> when the email is not found or the password does not match.
             </returns>
+        </member>
+        <member name="T:Api.Services.IProductService">
+            <summary>
+            Contract for product catalogue operations.
+            </summary>
+        </member>
+        <member name="M:Api.Services.IProductService.GetAll">
+            <summary>
+            Returns all products in the catalogue.
+            </summary>
+            <returns>Read-only list of <see cref="T:Api.Models.Product"/> records.</returns>
+        </member>
+        <member name="T:Api.Services.ProductService">
+            <summary>
+            Default implementation of <see cref="T:Api.Services.IProductService"/> backed by an in-memory list.
+            </summary>
+        </member>
+        <member name="M:Api.Services.ProductService.GetAll">
+            <inheritdoc />
         </member>
     </members>
 </doc>
