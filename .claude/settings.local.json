@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build *)",
+      "Bash(dotnet new xunit *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(dotnet add *)",
+      "PowerShell(dotnet test *)",
+      "Bash(dir C:\\\\Dev\\\\Project-Template\\\\src *)",
+      "Bash(dir C:\\\\Dev\\\\Project-Template\\\\src\\\\client *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Skill(generate-tests)"
+    ]
+  }
+}
